@@ -49,7 +49,7 @@ die() {
 }
 
 download_and_extract_custom_kernels() {
-    if [ "$DOWNLOAD_CUSTOM_KERNEL" = false ]; then
+    if [ "$DOWNLOAD_CUSTOM_KERNEL" = true ]; then
         echo "Pengunduhan kernel kustom dinonaktifkan. Melewati..."
         return
     fi
